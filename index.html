@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- *** Import TensorFlow.js *** -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- *** Import tfjs-vis *** -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    
+    
+    
+
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  </head>
+  <body>
+    
+    
+    <h1>Hi there!</h1>
+    
+    <p>
+      I'm your cool new webpage. Using <a href="https://tensorflow.org/js">TensorFlow.js</a> and made with <a href="https://glitch.com">Glitch</a>!
+    </p>
+    <p>
+      This is using a Mobilenet object detection model to classify stuff in your webcam using machine learning with TF.js.
+      Go ahead and try it out!
+    </p>
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+<!--     <img id="img" crossorigin src="https://i.imgur.com/JlUvsxa.jpg" width="227" height="227"/> -->
+    
+<!--   now let's do video feed -->
+    <video autoplay playsinline muted id = "webcam" width = "224" height = "224"></video>
+    
+    <br>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    
+    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    
+    
+    <!-- Load script.js after the content of the page -->
+    <script src="script.js"></script>
+  </body>
+</html>
