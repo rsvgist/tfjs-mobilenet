@@ -1,39 +1,8 @@
-Welcome to Glitch
+Simple Tensorflow.js Demo
 =================
 
-This is a site built from following 
+This is a simple demo of Tensorflow.js using a Mobilenet object detection model to classify stuff in your webcam using machine learning!
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more about transfer learning with Tensorflow.js [here](https://www.tensorflow.org/js/tutorials/transfer/what_is_transfer_learning).
-
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+Go ahead and try it out! https://tfjs-mbnet.glitch.me/
+      
+You can discover more about transfer learning with Tensorflow.js here: https://www.tensorflow.org/js/tutorials/transfer/what_is_transfer_learning.
